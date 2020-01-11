@@ -1,0 +1,77 @@
+<resources>
+    <!-- for device below lollipop version, Customise your theme here. -->
+    <!-- Base application theme. -->
+    <style name="AppMaterialTheme" parent="SuperMaterialTheme">
+        <!-- for device below lollipop version, Customise your theme here. -->
+    </style>
+
+
+
+
+
+
+
+    <!-- Parent theme for all Pre Lollipop and Lollipop above versions i.e. For all devices. -->
+    <!-- grandfather theme -->
+    <!-- below are original -->
+
+    <style name="SuperMaterialTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <!-- Parent theme for all Pre Lollipop and Lollipop above versions i.e. For all devices. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <!-- contextual toolbar error solved -->
+        <item name="windowActionModeOverlay">true</item>
+        <!-- extra thing ,beautify contextual toolbar -->
+        <item name="actionModeStyle">@style/MyActionMode</item>
+    </style>
+
+
+
+    <style name="MyActionMode" parent="@style/Widget.AppCompat.ActionMode">
+        <item name="background">@color/contextual_background</item>
+        <item name="titleTextStyle">@style/MyTextStyle</item>
+
+                <!-- Change default back icon of the contextu toolbar Action mode -->
+        <!--    <item name="actionModeCloseDrawable">@drawable/refresh</item> -->
+
+    </style>
+    
+    
+    
+    <style name="MyTextStyle" parent="@style/TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textColor">@color/contextualText</item>
+    </style>
+
+
+
+
+
+
+
+    <!-- chapter3.5 customise toolbar -->
+    <style name="MyToolbarTheme" parent="ThemeOverlay.AppCompat.Light">
+                 <!-- Text color of Toolbar Title -->
+        <item name="android:textColorPrimary">@android:color/white</item>
+                <!-- Color of Overflow Menu (3 dots icon )
+                                    and color of navigation drawer Icon -->
+        <item name="android:textColorSecondary">@android:color/white</item>
+
+    </style>
+
+
+
+
+
+
+    <style name="MyPopupTheme" parent="ThemeOverlay.AppCompat.Light">
+        <!-- Inside this define theme,add the items to customise popup theme -->
+
+        <item name="android:background">@color/overflowMenuBg</item>
+        <item name="android:textColorPrimary">@color/grey_800</item>
+
+    </style>
+
+</resources>

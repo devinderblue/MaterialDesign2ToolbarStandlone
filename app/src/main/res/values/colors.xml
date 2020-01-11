@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <!--
+    <color name="textColorPrimary">#FFFFFF</color>
+    <color name="textColorSecondary">#FFFFFF</color>
+
+     -->
+    <!-- popup menu bacground and text color -->
+    <color name="overflowMenuBg">#ede2b2</color>
+    <color name="grey_800">#838493</color>
+
+    <!-- contextual toolbar background color -->
+    <color name="contextual_background">#5ce2be</color>
+    
+    <color name="contextualText">#e18383</color>
+</resources>
